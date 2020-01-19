@@ -46,7 +46,7 @@
             </tr>
             <tr>
                 <td><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/The_President%2C_Shri_Pranab_Mukherjee_presenting_the_Padma_Shri_Award_to_Shri_Virat_Kohli%2C_at_a_Civil_Investiture_Ceremony%2C_at_Rashtrapati_Bhavan%2C_in_New_Delhi_on_March_30%2C_2017_%28cropped%29.jpg"></td>
-                <td>He is Rahul he is crekter from my state Karnataka</td>
+                <td>He is Rahul he is cricketerr </td>
             </tr>
         </table>
             <h3>my skills</h3>
