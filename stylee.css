@@ -1,0 +1,97 @@
+body{
+    color: #40514E;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-size: 562.5%;
+    margin: 20px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    color:#66BFBF;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a{
+    color: #11999E;
+}
+.top{
+    position: relative;
+    padding-top: 40px;
+    line-height: 2;
+    background-color: #eaf6f6;
+    margin-bottom: 40px;
+}
+ .bottom-cloud{
+     position: absolute;
+     left: 25%;
+ }
+ .top-cloud{
+     position: absolute;
+     left: 900px;
+     margin-bottom: 0px;
+     top:40px
+     
+ }
+ .con, .pheww{
+     height: 120px;
+     width:120px;
+     border-radius: 100%;
+     float: left;
+ }
+  .cutee {
+    height: 120px;
+    width:120px;
+    border-radius: 100%;
+  }
+ .descro{
+     font-size: 2.1rem;
+    color: #66BFBF;
+ }
+ .skill-row{
+     width:50%;
+     margin:100px auto;
+ }
+ .skill-row{
+     text-align: left;
+     line-height: 2;
+ }
+ hr {
+     position: relative;
+     border:dotted;
+     width: 8%;
+     left: auto;
+     border-width: 9px 0px 0px 0px;
+     color: rgb(186, 206, 206);
+ }
+ .bottom-container{
+     background-color: #66BFBF;
+     height:95px;
+     padding-top: 20px;
+     margin-top: 50px;
+ }
+
+ .bottom-container p{
+     color: #eaf6f6;
+ }
+ .lol{
+     position: relative;
+     background-image: linear-gradient(orange, pink);
+     width: 140px;
+     left:45%;
+     height: 40px;
+     padding-top: 15px;
+ }
+ .lol:hover{
+     background-image: linear-gradient(pink, orange);
+ }
+ .middle-container{
+     margin-bottom: 80px;
+ }
