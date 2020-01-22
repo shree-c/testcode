@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    text-align: center;
+}
+div{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+
+}
+.a{
+    background-color: blue;
+    
+}
+.b{
+    background-color: pink;
+    top:200px;
+    left: 200px;
+}
+.c{
+    background-color: violet;
+    top:400px;
+    left:400px;
+}
