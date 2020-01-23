@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous"
+      />
+      <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"
+      ></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="stylee.css">
         <link rel="icon" href="images/favicon-16x16.png">
@@ -10,7 +31,8 @@
         <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="top">
+      <div class="row">
+        <div class="top col-12">
             <img class="top-cloud" src="images/cloud.png">
              <h1 style="margin: 0 auto 0 auto;">I am Shree,</h1>
              <p class="descro">a web designer.</p>
@@ -18,7 +40,7 @@
              <img src="images/mountain.png">
             
         </div>
-        <div class="middle-container">
+        <div class="middle-container col-12">
             <div class="profile">
               <img class="cutee" src="images/cuteboy.png" alt="cuteboy">
               <h2>Hello.</h2>
@@ -26,7 +48,7 @@
             </div>
         </div>
             <hr>
-            <div class="skills">
+            <div class="skills col-12">
               <h2>My Skills.</h2>
               <div class="skill-row">
                 <img class="pheww
@@ -34,31 +56,32 @@
                 <h3>Front end</h3>
                 <p class="p1">I'm excellent at html and css. Proficient in JavaScript and its frameworks. You can specify which tech you want me to use or I will choose based on your needs.</p>
               </div>
-              <div class="skill-row">
+              <div class="skill-row col-12">
                 <img class="con" src="images/con.jpg" style="margin-left: 20px; float: right;">
                 <h3>Back-end</h3>
                 <p class="p2">This is my favorite part of building websites. Any Back-end tech like PHP, node.js, Python; you name it I can build using them. Leave the trouble of building beautiful and error-free website to me.</p>
               </div>
             </div>
             <hr>
-            <div class="contact-me">
+            <div class="contact-me col-12">
               <h2>Get In Touch</h2>
               <h3>You can DM me on socials.</h3>
               <p >I usually reply within 24 hours. Good luck with your venture into the webworld. I will be there with you at every step.</p>
               <div class="lol">
-              <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+                  <button type="button" class="btn btn-outline-dark btm-lg"> <a class="btn" href="mailto:name@email.com">CONTACT ME</a></button>
+             
               </div>
             </div>
           </div>
           
           
-          <div class="bottom-container">
+          <div class="bottom-container col-12">
             <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
             <a class="footer-link" href="https://twitter.com/">Twitter</a>
             <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
             <p>© 2018 Shree Wajapeya</p>
           </div>
-
+        </div>
 
     </body>
 </html>
