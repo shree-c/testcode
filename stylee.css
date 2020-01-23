@@ -36,9 +36,9 @@ a{
  }
  .top-cloud{
     position: absolute;
-    left: 746px;
+    left: 72%;
     margin-bottom: 0px;
-    top: -31px;
+    top: 5%;
     width: 25%
      
  }
@@ -82,6 +82,7 @@ a{
 
  .bottom-container p{
      color: #eaf6f6;
+     width:100%;
      
  }
  a{
@@ -91,18 +92,26 @@ a{
  a:hover{
      color:rgb(167, 238, 238);
  }
- .lol{
+ .lol {
      position: relative;
      
-     width: 140px;
-     left:45%;
-     height: 40px;
-     padding-top: 15px;
-     padding-bottom: 15px;
-     left: 38%;
+     width:;
+    
+     
+     margin-top: 5%;
+     margin-bottom: 2%;
+     
+     z-index: +1;
+ }
+ .lol button{
+     width:250px;
  }
  
  
  .middle-container{
      margin-bottom: 80px;
  }
+ .mou{
+     width:100%;
+ }
+ 
