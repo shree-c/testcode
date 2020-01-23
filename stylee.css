@@ -30,14 +30,16 @@ a{
     margin-bottom: 40px;
 }
  .bottom-cloud{
-     position: absolute;
-     left: 25%;
+    position: absolute;
+    left: 13%;
+    width: 25%
  }
  .top-cloud{
-     position: absolute;
-     left: 900px;
-     margin-bottom: 0px;
-     top:40px
+    position: absolute;
+    left: 746px;
+    margin-bottom: 0px;
+    top: -31px;
+    width: 25%
      
  }
  .con, .pheww{
@@ -80,18 +82,27 @@ a{
 
  .bottom-container p{
      color: #eaf6f6;
+     
+ }
+ a{
+    text-decoration: none;
+    margin: 0px 10px 10px 0;
+}
+ a:hover{
+     color:rgb(167, 238, 238);
  }
  .lol{
      position: relative;
-     background-image: linear-gradient(orange, pink);
+     
      width: 140px;
      left:45%;
      height: 40px;
      padding-top: 15px;
+     padding-bottom: 15px;
+     left: 38%;
  }
- .lol:hover{
-     background-image: linear-gradient(pink, orange);
- }
+ 
+ 
  .middle-container{
      margin-bottom: 80px;
  }
